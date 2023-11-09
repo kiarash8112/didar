@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="0dp"
+    android:layout_weight="0.1"
+    >
+    <ImageView
+        android:tint="#000000"
+        android:id="@+id/backimg"
+        android:layout_width="49dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_menu_revert" />
+
+</LinearLayout>
+    <TextView
+        android:textSize="17dp"
+        android:layout_gravity="center"
+        android:id="@+id/text1"
+        android:text="اگر شما در مورد هر بخش از برنامه سوالی یا اعنتقادی دارید ما "
+        android:textColor="#ff545a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textSize="17dp"
+        android:layout_gravity="center"
+        android:id="@+id/text2"
+        android:textColor="#ff5e5a"
+        android:text="در خدمتیم لطفا پیام خود را در قسمت پایین تایپ کنید تا به ایمیل ما"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_gravity="center"
+        android:id="@+id/text3"
+        android:textColor="#ff5e5c"
+        android:text="  فرستاده شود و ما تا 48 ساعت آینده به شما پاسخ خواهیم داد"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        >
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/bug"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:textColor="#000000"
+                android:hint="اگر قصد سوال پرسیدن دارید ایمیل خود را وارد کنید"
+                android:layout_width="335dp"
+                android:layout_height="wrap_content" />
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        >
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/support"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:textColor="#000000"
+                android:hint="لطفا در اینجا پیام خود را بنویسید"
+                android:layout_width="335dp"
+                android:layout_height="wrap_content" />
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        >
+        <Button
+            android:layout_gravity="center"
+            android:id="@+id/btnsend"
+            android:textColor="#ffffff"
+            android:background="@drawable/startbutton"
+            android:layout_margin="20dp"
+            android:text="ارسال"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\.android\build-cache\4fe9075192b6dd027ddb344e9c2fce230caea422\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
+        <dex dex="F:\andrid studio\Meethere-master\didar\app\build\intermediates\pre-dexed\debug\classes_45f2bde34e624a942a0d1162c0634ca3507a075c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\.android\build-cache\8c241aad224ad237ce0b99b012b21e90f6427de9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cddcd0fb93bc70e27325f2f715b2710332004ebb">
+        <dex dex="F:\andrid studio\Meethere-master\didar\app\build\intermediates\pre-dexed\debug\classes_13a00b38d92c193d423cbbd11ae392ebfca39baf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\.android\build-cache\c750a0b1c78d445b3265aeae9a0d41a138fdb154\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="F:\andrid studio\Meethere-master\didar\app\build\intermediates\pre-dexed\debug\classes_bbb6c2c1bbbcad7fd9a72c8fac683634b67a7af0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\.android\build-cache\620eb38defd083a6d844371725afc2881a3d5efa\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="F:\andrid studio\Meethere-master\didar\app\build\intermediates\pre-dexed\debug\classes_fad0ec37f1cc6a7b88db23ec40bfb111fa801c9f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\.android\build-cache\ac67e7ef591b50493e3ee3b2e18b64da133391d1\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="F:\andrid studio\Meethere-master\didar\app\build\intermediates\pre-dexed\debug\classes_5c4fcd99fd9f9ff3c913eb3a9a5cb0a3385fa7f2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\.android\build-cache\a10db41256ad31eddcd478623cd9dfaafb4c1c2a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="F:\andrid studio\Meethere-master\didar\app\build\intermediates\pre-dexed\debug\classes_41135c9ca6e8cb724f85276ee18372d735fe53ca.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\.android\build-cache\5e1baa8cb4b2ae83c798cb76086ace1121a372c2\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6a022bf00ccd0948a8180c505e8e458bbddd43a6">
+        <dex dex="F:\andrid studio\Meethere-master\didar\app\build\intermediates\pre-dexed\debug\classes_f8c552a4c0e19526485048117ad18173d048a7f8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\.android\build-cache\c4584f40809a99d675f61cc992a9855eac936083\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="F:\andrid studio\Meethere-master\didar\app\build\intermediates\pre-dexed\debug\classes_69dcfa6fc0fa0f2915f9a0adfd72bc7c9dd6c1ed.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\.android\build-cache\ec62173e73cb1aa289e7c0b922f6df438c4ca7d4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="F:\andrid studio\Meethere-master\didar\app\build\intermediates\pre-dexed\debug\classes_6426b78c570401e985df167aded4c254d8e748e3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\.android\build-cache\3641d1153c6b9868b3141843ed681b23d434ff7a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="F:\andrid studio\Meethere-master\didar\app\build\intermediates\pre-dexed\debug\classes_4b8a5a3f3a31fa7f5f6f35510cd569e121e7d68d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\26.0.0-alpha1\support-annotations-26.0.0-alpha1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="F:\andrid studio\Meethere-master\didar\app\build\intermediates\pre-dexed\debug\support-annotations-26.0.0-alpha1_384eb18a527b65f77de4b38f1e04aa5ca13ffde9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\.android\build-cache\d588bbba3d977122b58093656ab1e4638b9c7883\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="F:\andrid studio\Meethere-master\didar\app\build\intermediates\pre-dexed\debug\classes_7fc516dcb851ba8180c1e704b080dbcd7b07d89f.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\andrid studio\Meethere-master\didar\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="708b272c75e7f1e52859de69af1e066fbec0f3ef">
+        <dex dex="F:\andrid studio\Meethere-master\didar\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_3b4fa6f462a1b36978a79d26924ea4e7b76619b1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\andrid studio\Meethere-master\didar\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
+        <dex dex="F:\andrid studio\Meethere-master\didar\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_c8387902edcbed08d7254c0c854cd8ecb0e0f215\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\asus\.android\build-cache\e116fb172fc2032da564c943b9021109b9bfa831\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="F:\andrid studio\Meethere-master\didar\app\build\intermediates\pre-dexed\debug\classes_1f351483e8a678a947f496cc9397f4b1e370ca1c.jar" />
+    </item>
+
+</items>

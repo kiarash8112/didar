@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"    android:layoutDirection="ltr">
+    <ImageView
+        android:background="@drawable/toastform"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"></ImageView>
+    <ImageView
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:src="@drawable/plusfreind"
+        android:layout_alignParentRight="true"
+        android:id="@+id/imageView5"></ImageView>
+    <TextView
+        android:textColor="#2863eb"
+        android:text="دوست شما در نقشه اضافه شد"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:layout_alignBottom="@+id/imageView5"
+        android:layout_toStartOf="@+id/imageView5"
+        android:layout_marginEnd="29dp"></TextView>
+
+</RelativeLayout>

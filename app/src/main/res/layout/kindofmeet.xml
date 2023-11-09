@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:layoutDirection="ltr"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:id="@+id/txtkindofmeet"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        android:text="چه نوع دیداری می خواهید انجام دهید؟"
+        android:textColor="#ff5e5a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_margin="20dp"
+            android:id="@+id/freindmeet"
+            android:textColor="#ffffff"
+            android:background="@drawable/startbutton"
+            android:text="دوستانه"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></Button>
+    </LinearLayout>
+
+     <LinearLayout
+         android:layout_margin="2dp"
+         android:gravity="center"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content">
+         <Button
+             android:id="@+id/fmeet"
+             android:textColor="#ffffff"
+             android:background="@drawable/startbutton"
+             android:text="فرهنگی"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"></Button>
+     </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"><LinearLayout
+
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_margin="20dp"
+            android:id="@+id/workmeet"
+            android:textColor="#ffffff"
+            android:background="@drawable/startbutton"
+            android:text="کاری"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></Button>
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/lovemeet"
+                android:textColor="#ffffff"
+                android:background="@drawable/startbutton"
+                android:text="عاشقانه"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></Button>
+        </LinearLayout></LinearLayout>
+</LinearLayout>
+

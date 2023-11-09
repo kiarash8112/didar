@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:layoutDirection="ltr"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1">
+
+        <TextView
+            android:layout_gravity="center"
+            android:textSize="25dp"
+            android:textColor="#ff5e5a"
+            android:text="رزو میز"
+            android:layout_width="0dp"
+            android:layout_weight="0.2"
+            android:layout_height="wrap_content"></TextView>
+        <ImageView
+            android:src="@drawable/meetlogo"
+            android:layout_width="0dp"
+            android:layout_weight="0.1"
+            android:layout_height="match_parent"></ImageView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1">
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+           <EditText
+               android:id="@+id/edtnumberofperson"
+               android:layout_marginLeft="20dp"
+               android:layout_marginRight="20dp"
+               android:hint="لطفا تعداد افراد را وارد کنید"
+               android:textColor="#ff5e5a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></EditText>
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1">
+         <Button
+             android:id="@+id/btnsetdata"
+             android:padding="10dp"
+             android:background="@drawable/startbutton"
+             android:textColor="#ffffff"
+             android:text="تعین تاریخ دیدار"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"></Button>
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1">
+        <Button
+            android:id="@+id/btnsettime"
+            android:padding="10dp"
+            android:background="@drawable/startbutton"
+            android:textColor="#ffffff"
+            android:text="تعین زمان دیدار"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></Button>
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1">
+        <Switch
+            android:id="@+id/swichalarm"
+            android:textSize="22dp"
+            android:textColor="#ff5e5a"
+            android:text="در زمان دیدار به من alarm داده شود"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></Switch>
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1">
+        <Button
+            android:id="@+id/btnrezerve"
+            android:background="@drawable/startbutton"
+            android:textColor="#ffffff"
+            android:text="رزو !"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></Button>
+    </LinearLayout>
+</LinearLayout>

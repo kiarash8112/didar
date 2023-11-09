@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layoutDirection="ltr"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_marginLeft="20dp"
+        android:id="@+id/imageView4"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        app:srcCompat="@drawable/telegramtoast"
+       android:layout_alignParentRight="true"
+        />
+    <TextView
+        android:textColor="#2d99ff"
+        android:text="لطفا تلگرام را نصب کنید"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="31dp"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/imageView4"
+        android:layout_marginEnd="30dp" />
+</RelativeLayout>

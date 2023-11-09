@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"    android:layoutDirection="ltr">
+
+  <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="0dp"
+      android:layout_weight="0.2"
+      >
+      <android.support.design.widget.TextInputLayout
+          android:layout_width="match_parent"
+          android:layout_marginTop="20dp"
+          android:layout_height="wrap_content">
+          <EditText
+              android:id="@+id/name"
+              android:layout_gravity="center"
+              android:textColor="#ff5a5a"
+              android:hint="نام"
+              android:layout_width="335dp"
+              android:layout_height="wrap_content" />
+      </android.support.design.widget.TextInputLayout>
+  </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        >
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/phone"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:textColor="#ff5a5a"
+                android:hint="تلفن همراه"
+                android:layout_width="335dp"
+                android:layout_height="wrap_content" />
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>  <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="0dp"
+    android:layout_weight="0.2"
+    >
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/username"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:textColor="#ff5a5a"
+            android:hint="نام کاربری"
+            android:layout_width="335dp"
+            android:layout_height="wrap_content" />
+    </android.support.design.widget.TextInputLayout>
+</LinearLayout>  <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="0dp"
+    android:layout_weight="0.2"
+    >
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/password"
+
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:textColor="#ff5a5a"
+            android:hint="رمز عبور"
+            android:inputType="textPassword"
+            android:layout_width="335dp"
+            android:layout_height="wrap_content" />
+    </android.support.design.widget.TextInputLayout>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        >
+
+
+
+
+
+        <Button
+            android:id="@+id/btnregister"
+            android:layout_margin="30dp"
+            android:background="@drawable/startbutton"
+            android:text="عضویت"
+            android:textColor="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</LinearLayout>

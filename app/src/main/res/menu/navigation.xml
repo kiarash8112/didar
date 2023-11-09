@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:override="true"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:icon="@drawable/homeicon"
+        android:id="@+id/home"
+        android:title="خانه"
+        android:titleCondensed="hello im kiarash hajian im 15 years"
+        ></item>
+    <item
+        android:title="اضافه کردن دوستان"
+        android:id="@+id/addfreind"
+        android:icon="@drawable/addfreind"
+        ></item>
+<item
+    android:id="@+id/setting"
+    android:title="تنظیمات"
+    android:icon="@drawable/settingicon">
+    <dimen name="design_navigation_icon_size" tools:override="true">40dp</dimen>
+</item>
+
+
+    <item
+        android:title="پشتیبانی"
+        android:icon="@drawable/support"
+        android:id="@+id/support"></item>
+
+    <item
+        android:title="فرستادن پیامک"
+        android:icon="@drawable/sms"
+        android:id="@+id/sms"></item>
+    <item
+        android:title="تماس"
+
+        android:icon="@drawable/call"
+        android:id="@+id/callmenu"></item>
+    <item
+         android:title="رفتن به تلگرام"
+         android:icon="@drawable/telegramicon"
+         android:id="@+id/opentelegram"></item>
+    <item
+        android:title="شما"
+        android:icon="@drawable/profile"
+        android:id="@+id/me"></item>
+</menu>
